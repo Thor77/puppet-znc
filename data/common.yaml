@@ -1,0 +1,5 @@
+---
+znc::package_name: 'znc'
+znc::package_ensure: 'installed'
+znc::service_name: 'znc'
+znc::service_ensure: 'running'
