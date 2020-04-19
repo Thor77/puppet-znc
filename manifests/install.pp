@@ -5,12 +5,12 @@ class znc::install {
     }
 
     group { 'znc':
-      ensure => 'present',
+        ensure => 'present',
     } -> user { 'znc':
-      ensure     => 'present',
-      gid        => 'znc',
-      system     => true,
-      home       => '/var/lib/znc',
-      managehome => true,
+        ensure     => 'present',
+        gid        => 'znc',
+        system     => true,
+        home       => '/var/lib/znc',
+        managehome => true,
     }
 }
