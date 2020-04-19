@@ -6,6 +6,7 @@
   "license": "MIT",
   "source": "https://github.com/thor77/puppet-znc",
   "project_page": "https://github.com/thor77/puppet-znc",
+  "issues_url": "https://github.com/Thor77/puppet-znc/issues",
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
